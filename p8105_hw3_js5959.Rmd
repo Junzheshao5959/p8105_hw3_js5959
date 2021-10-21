@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 ## Problem 1
 noting the size and structure of the data, describing some key variables, and giving illustrative examples of observations.
 
-There are `r nrow(instacart)`,and the variables are `r colnames(instacart)`, some key variables here are aisle: the name of the aisle,order_number: the order sequence number for this user (1=first, n=nth).  
+There are `r nrow(instacart)`,and the variables are `r colnames(instacart)`, some key variables here are aisle: the name of the aisle,order_number: the order sequence number for this user (1=first, n=nth).  Each row in the dataset is a product from an order
 
 How many aisles are there, and which aisles are the most items ordered from?  
 
